@@ -6,10 +6,10 @@ const {
 } = require("../controllers/auth.controller");
 
 
-
 router.post("/register", registerController);  // register user
 
 router.post("/login", loginController);       // login user
+
 
 
 
